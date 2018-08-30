@@ -1,0 +1,3 @@
+[submodule "gwu-xv6"]
+	path = gwu-xv6
+	url = https://github.com/gparmer/gwu-xv6.git
