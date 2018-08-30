@@ -3,7 +3,10 @@ A collection of tools and configurations needed to compile and run assignments f
 
 Using vagrant and virtualbox, spin up a VM that is configured with the correct tools for CSCI 3411.  
 
-## Short instructions:
+## Short install instructions
+
+A more detailed instructions is at the end of this document.  
+
  - `git clone https://github.com/base0x10/OS-standard-env`
  - `git submodule init`
  - `git submodule update`
@@ -21,8 +24,14 @@ Using vagrant and virtualbox, spin up a VM that is configured with the correct t
  - `exit` to exit the VM
  - `vagrant halt` to end the VM
  
+## Developing within this environment
+
+This environment syncs a directory on your hard drive to a directory on you VM.  For this repo, it syncs the root of this repo to a folder on the VM called CSCI-3411.  This means that you can use your favorite text editor or IDE on your host machine to edit your code, and as soon as you save it, it is visable in the VM.  
+
+It is possible to do everythin in the VM, but I usually find it easier to edit files and interact with git on the host machine, with my prefered tools and editors, and then compile and run my code from within the VM.  Usually I keep one termial open and SSHd into the VM, while I use a edit code in another teminal or editor.  
+ 
  ## Full instructions
-Cloning this repo and folowing the steps below will setup a standard working enviornment with everything you need to compile and run code for homeworks and projects for the operating system course.  
+Cloning this repo and folowing the steps below will setup a standard working environment with everything you need to compile and run code for homeworks and projects for the operating system course.  
 
 First install Vagrant, which is a configurer for VMs.  Manay operating systmes provide package managers with Vagrant available.  DNF for CENTOS, FEDORA, and RHEL can install vagrant with `sudo dnf install vagrant`.  Ubuntu's APT package manager can install vagrant with `sudo apt-get install vagrant`.  For mac users, I am told that the following link correctly sets up vagrant.  http://sourabhbajaj.com/mac-setup/Vagrant/README.html
 
