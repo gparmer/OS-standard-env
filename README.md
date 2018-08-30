@@ -26,16 +26,16 @@ A more detailed instructions is at the end of this document.
  
 ## Developing within this environment
 
-This environment syncs a directory on your hard drive to a directory on you VM.  For this repo, it syncs the root of this repo to a folder on the VM called CSCI-3411.  This means that you can use your favorite text editor or IDE on your host machine to edit your code, and as soon as you save it, it is visable in the VM.  
+This environment syncs a directory on your hard drive to a directory on you VM.  For this repo, it syncs the root of this repo to a folder on the VM called CSCI-3411.  This means that you can use your favorite text editor or IDE on your host machine to edit your code, and as soon as you save it, it is visible in the VM.  
 
-It is possible to do everythin in the VM, but I usually find it easier to edit files and interact with git on the host machine, with my prefered tools and editors, and then compile and run my code from within the VM.  Usually I keep one termial open and SSHd into the VM, while I use a edit code in another teminal or editor.  
+It is possible to do everything in the VM, but I usually find it easier to edit files and interact with git on the host machine, with my prefered tools and editors, and then compile and run my code from within the VM.  Usually I keep one termial open and SSHd into the VM, while I use a edit code in another teminal or editor.  
  
- ## Full instructions
+## Full instructions
 Cloning this repo and folowing the steps below will setup a standard working environment with everything you need to compile and run code for homeworks and projects for the operating system course.  
 
-First install Vagrant, which is a configurer for VMs.  Manay operating systmes provide package managers with Vagrant available.  DNF for CENTOS, FEDORA, and RHEL can install vagrant with `sudo dnf install vagrant`.  Ubuntu's APT package manager can install vagrant with `sudo apt-get install vagrant`.  For mac users, I am told that the following link correctly sets up vagrant.  http://sourabhbajaj.com/mac-setup/Vagrant/README.html
+First install Vagrant, which is a configurer for VMs.  Manay operating systems provide package managers with Vagrant available.  DNF for CENTOS, FEDORA, and RHEL can install vagrant with `sudo dnf install vagrant`.  Ubuntu's APT package manager can install vagrant with `sudo apt-get install vagrant`.  For Mac users, I am told that the following link correctly sets up vagrant.  http://sourabhbajaj.com/mac-setup/Vagrant/README.html
 
-I do not know how to setup vagrant on microsoft windows, however I am sure it can be done.  
+I do not know how to setup vagrant on Microsoft Windows. However, I am sure it can be done.  
 
 After setting up vagrant, you need to install VirtualBox, which runs VMs.  This can be done from most package managers easily or from their website.  
 
