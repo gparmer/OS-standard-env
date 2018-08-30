@@ -5,6 +5,7 @@ Using vagrant and virtualbox, spin up a VM that is configured with the correct t
 
 ## Short instructions:
  - `git clone https://github.com/base0x10/OS-standard-env`
+ - `git submodule init`
  - `git submodule update`
  - Install vagrant acording to your specific OS
     - `sudo dnf isntall vagrant`
