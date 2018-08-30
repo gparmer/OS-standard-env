@@ -8,9 +8,11 @@ Using vagrant and virtualbox, spin up a VM that is configured with the correct t
  - `git submodule init`
  - `git submodule update`
  - Install vagrant acording to your specific OS
+    - For mac and windows, there are instructions online.  If anyone sends me consisce instructions, or a link I will copy them here
     - `sudo dnf isntall vagrant`
     - `sudo apt-get install vagrant`
  - install virtualbox - this also depends on your OS
+    - There are websites that discribe how to do this for mac and windows.  If someone sends me links, I will post them here
     - `sudo dnf install VirtualBox`
     - `sudo apt-get install virtualbox`
  - `vagrant up`
