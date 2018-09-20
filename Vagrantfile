@@ -4,8 +4,11 @@ Vagrant.configure(2) do |config|
     config.vm.provider "virtualbox" do |v|
         v.name = "CSCI-3411"
         v.memory = 4096
-        v.cpus = 4
+        
+        #   ~~~~ THIS IS WHERE YOU CHANGE THE NUMBER OF CPUS ~~~~
+        v.cpus = 2
 
+        v.customize ["modifyvm", :id, "--ioapic", "on"]
         v.customize ["modifyvm", :id, "--paravirtprovider", "kvm"]
         v.customize ["guestproperty", "set", :id, "/VirtualBox/GuestAdd/VBoxService/--timesync-set-threshold", 10000]
     end
