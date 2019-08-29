@@ -15,7 +15,7 @@ A more detailed instructions is at the end of this document.
     - `sudo dnf isntall vagrant`
     - `sudo apt-get install vagrant`
  - install [virtualbox](https://www.virtualbox.org/wiki/Downloads) - this also depends on your OS
-    - For Mac, ensure that you allow the installer to load according to these instructions.
+    - For Mac, ensure that you allow the installer to load according to [these](https://matthewpalmer.net/blog/2017/12/10/install-virtualbox-mac-high-sierra/index.html) instructions.
     - `sudo dnf install VirtualBox`
     - `sudo apt-get install virtualbox`
  - `vagrant up`
