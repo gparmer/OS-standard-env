@@ -10,12 +10,12 @@ A more detailed instructions is at the end of this document.
  - `git clone https://github.com/base0x10/OS-standard-env`
  - `git submodule init`
  - `git submodule update`
- - Install vagrant acording to your specific OS
+ - Install [vagrant](https://www.vagrantup.com/downloads.html) acording to your specific OS
     - For mac and windows, there are instructions online.  If anyone sends me consisce instructions, or a link I will copy them here
     - `sudo dnf isntall vagrant`
     - `sudo apt-get install vagrant`
- - install virtualbox - this also depends on your OS
-    - There are websites that discribe how to do this for mac and windows.  If someone sends me links, I will post them here
+ - install [virtualbox](https://www.virtualbox.org/wiki/Downloads) - this also depends on your OS
+    - For Mac, ensure that you allow the installer to load according to [these](https://matthewpalmer.net/blog/2017/12/10/install-virtualbox-mac-high-sierra/index.html) instructions.
     - `sudo dnf install VirtualBox`
     - `sudo apt-get install virtualbox`
  - `vagrant up`
